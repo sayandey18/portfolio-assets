@@ -32,6 +32,9 @@ function scrollActive() {
 }
 window.addEventListener('scroll', scrollActive)
 
+// Modal close function
+const closeBtn = document.querySelectorAll('.close-modal')
+
 // Success modal close
 function closeModalS() {
     const modalContainer = document.getElementById('modal-failed')
