@@ -51,7 +51,7 @@ closeBtn.forEach(c => c.addEventListener('click', closeModalF))
 
 // Work section
 const tabs = document.querySelectorAll(".work__container .company__btn");
-const contents = document.querySelectorAll(".work__container  .tab__data");
+const contents = document.querySelectorAll(".work__container .tab__data");
 
 const removeActiveClass = () => {
     tabs.forEach((t) => {
